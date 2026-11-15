@@ -1,0 +1,16 @@
+# Dependencies and generated folders
+node_modules/
+dist/
+.venv/
+
+# Log files
+*.log
+
+# Temporary files
+*.tmp
+
+# Ignore all debug files
+debug/
+
+# Re-include one specific file
+!important.log

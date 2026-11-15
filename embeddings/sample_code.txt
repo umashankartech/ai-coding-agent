@@ -1,0 +1,24 @@
+AUTHENTICATION
+
+The application uses JWT authentication.
+The login controller validates the user's credentials.
+After successful login, an access token is generated.
+The authentication middleware verifies the JWT token.
+The middleware attaches the authenticated user to the request.
+
+
+CART
+
+The cart controller handles cart operations.
+Users can add products to their cart.
+Users can update product quantities.
+Users can remove products from their cart.
+The cart summary calculates the total price.
+
+
+PRODUCTS
+
+The product controller handles product operations.
+Products can be searched by name.
+Products can be filtered by category.
+Products are retrieved according to the selected pincode.
